@@ -1,6 +1,14 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [1.1.5](https://github.com/arobson/fount/compare/v1.1.3...v1.1.5) (2021-01-30)
+
+
+### Bug Fixes
+
+* removes dependencies on packages that fail audit ([0b80987](https://github.com/arobson/fount/commit/0b80987f5ba58a7cc9d7e6c0a9e82a3e8c32f556))
+* update fauxdash to latest to support function arg parsing during code coverage testing ([bf79070](https://github.com/arobson/fount/commit/bf790700c88bbc9edc486c32b5f09f470d9cae79))
 
 <a name="1.1.4"></a>
 ## [1.1.4](https://github.com/arobson/fount/compare/v1.1.3...v1.1.4) (2018-03-02)
