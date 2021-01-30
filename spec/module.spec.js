@@ -1,16 +1,16 @@
 require('./setup')
 var fount = require('../src/index.js')
-var postal = require('postal')
+var fauxdash = require('fauxdash')
 
 describe('npm Dependencies', function () {
   describe('when require cache has dependency', function () {
     describe('with static dependency', function () {
       before(function () {
-        fount.registerModule('postal')
+        fount.registerModule('fauxdash')
       })
 
       it('should successfully register as static', function () {
-        return fount.resolve('postal').should.eventually.equal(postal)
+        return fount.resolve('fauxdash').should.eventually.equal(fauxdash)
       })
     })
     describe('with missing library', function () {
@@ -25,12 +25,12 @@ describe('npm Dependencies', function () {
   describe('when require cache does not have dependency', function () {
     describe('with factory dependency', function () {
       before(function () {
-        fount.registerModule('whistlepunk')
+        fount.registerModule('node-flakes')
       })
 
       it('should successfully register as factory', function () {
-        return fount.resolve('whistlepunk')
-          .should.eventually.equal(require('whistlepunk'))
+        return fount.resolve('node-flakes')
+          .should.eventually.equal(require('node-flakes'))
       })
     })
     describe('with missing library', function () {

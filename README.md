@@ -345,8 +345,3 @@ Right now this is pretty weak, but if you call `log`, Fount will dump the contai
 * `npm run coverage` gets a coverage report
 * `npm run continuous` runs mocha in watch mode
 * `npm run release` will cut a new standard version, update the changelog and tag the last commit.
-
-[travis-url]: https://travis-ci.org/arobson/fount
-[travis-image]: https://travis-ci.org/arobson/fount.svg?branch=master
-[coveralls-url]: https://coveralls.io/github/arobson/fount?branch=master
-[coveralls-image]: https://coveralls.io/repos/github/arobson/fount/badge.svg?branch=master

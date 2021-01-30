@@ -3,7 +3,7 @@ const chai = require('chai')
 chai.use(require('chai-as-promised'))
 global.should = chai.should()
 global.expect = chai.expect
-global._ = require('lodash')
+global._ = require('fauxdash')
 global.sinon = require('sinon')
 
 function findParent (mod) {

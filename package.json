@@ -27,8 +27,8 @@
   },
   "homepage": "https://github.com/LeanKit-Labs/fount",
   "dependencies": {
-    "debug": "~2.1.3",
-    "fauxdash": "1.3.x"
+    "debug": "^4.3.1",
+    "fauxdash": "^1.7.1"
   },
   "standard": {
     "env": [
@@ -43,15 +43,12 @@
   "devDependencies": {
     "chai": "~2.1.1",
     "chai-as-promised": "~4.3.0",
-    "coveralls": "^2.13.1",
-    "lodash": "~3.7.0",
-    "mocha": "^3.4.2",
+    "mocha": "^8.2.1",
     "mocha-lcov-reporter": "^1.3.0",
-    "nyc": "^11.0.2",
-    "postal": "^1.0.2",
+    "node-flakes": "^1.1.0",
+    "nyc": "^15.1.0",
     "sinon": "~1.14.1",
     "standard": "^10.0.2",
-    "standard-version": "^4.2.0",
-    "whistlepunk": "^0.3.3"
+    "standard-version": "^9.1.0"
   }
 }
